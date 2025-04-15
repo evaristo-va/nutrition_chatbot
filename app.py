@@ -1,5 +1,6 @@
 import streamlit as st
-from chatbot_core import get_gpt_response, call_function, get_tools, int_prompt
+#from chatbot_core import get_gpt_response, call_function, get_tools, int_prompt
+from chatbot_core_AWS import get_gpt_response, call_function, get_tools, int_prompt
 import json
 
 st.set_page_config(page_title="BiteBuddy 🍏", page_icon="🥗")
